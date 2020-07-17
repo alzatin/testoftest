@@ -45,6 +45,28 @@
         {
             "atomType": "GitHubMolecule",
             "name": "newtest",
+            "x": 0.44992412746585736,
+            "y": 0.4837837837837837,
+            "uniqueID": 884789,
+            "projectID": "280493608",
+            "ioValues": [
+                {
+                    "name": "length",
+                    "ioValue": 1
+                },
+                {
+                    "name": "width",
+                    "ioValue": 1
+                },
+                {
+                    "name": "height",
+                    "ioValue": 5
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "newtest",
             "x": 0.3535660091047041,
             "y": 0.645945945945946,
             "uniqueID": 934895,
