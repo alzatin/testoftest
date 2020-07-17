@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "height",
-            "ioValue": 1
+            "ioValue": 10
         }
     ],
     "topLevel": true,
@@ -38,15 +38,15 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 1
+                    "ioValue": 10
                 }
             ]
         },
         {
             "atomType": "GitHubMolecule",
             "name": "newtest",
-            "x": 0.41047040971168436,
-            "y": 0.5783783783783784,
+            "x": 0.3535660091047041,
+            "y": 0.645945945945946,
             "uniqueID": 934895,
             "projectID": "280493608",
             "ioValues": [
