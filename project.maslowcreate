@@ -21,24 +21,28 @@
             "ioValues": []
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "newtest",
-            "x": 0.2883156297420334,
-            "y": 0.3945945945945946,
-            "uniqueID": 679442,
-            "projectID": "280493608",
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.28679817905918054,
+            "y": 0.5324324324324324,
+            "uniqueID": 678866,
             "ioValues": [
                 {
-                    "name": "length",
-                    "ioValue": 1
-                },
-                {
-                    "name": "width",
-                    "ioValue": 20
-                },
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5318664643399089,
+            "y": 0.43243243243243246,
+            "uniqueID": 301226,
+            "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 5
+                    "ioValue": 10
                 }
             ]
         },
@@ -50,7 +54,21 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 678866,
+            "ap2ID": 301226
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 301226
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
